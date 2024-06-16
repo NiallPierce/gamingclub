@@ -1,0 +1,62 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
+header {
+    header {
+        background-color: #ffffff;
+        text-align: center; 
+        padding: 0 1rem;
+        z-index: 99;
+        width: 100%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+#logo {
+    text-align: center;
+}
+
+/*Main*/
+main {
+    background-color:beige;
+    /*Code to drop footer to the bottom*/
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Footer*/
+footer {
+    background-color: bisque;
+}
