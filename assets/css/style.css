@@ -24,37 +24,45 @@ h1, h2, h3 {
     color: #252525;
 }
 
-.hidden-heading {
-    display: none;
-}
-
 /* Header */
 header {
-    header {
-        background-color: #ffffff;
-        text-align: center; 
-        padding: 0 1rem;
-        z-index: 99;
-        width: 100%;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
-}
-#logo {
+    background-color: #ffffff;
     text-align: center;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header h1#logo {
+    text-align: center;
+}
+
+h1#logo a {
+    color: #252525;
+    display: inline-flex;
+    text-decoration: none;
 }
 
 /*Main*/
 main {
-    background-color:beige;
+    background-color: beige;
     /*Code to drop footer to the bottom*/
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
     flex-direction: column;
 }
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 
 /*Footer*/
 footer {
